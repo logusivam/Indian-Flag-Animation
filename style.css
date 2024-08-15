@@ -26,5 +26,5 @@ body{
     flex-direction: column;
     padding-top: 20px;
     height: 300px;
-    clip-path: polygon(32% 6%, 70% 0%,);
+    clip-path: polygon(32% 6%, 70% 0%, 100% 8%, 100% 99%, 70% 93%, 27% 100%, 0 95);
 }

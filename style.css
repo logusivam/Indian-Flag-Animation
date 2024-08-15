@@ -6,7 +6,7 @@ body{
 
 .container
 {
-    margin: 30px 100px;
+    margin: 30px 500px;
 }
 
 .stick
@@ -150,7 +150,7 @@ body{
     height: 65px;
     width: 150px;
     bottom: 85px;
-    left: 35px;
+    left: 430px;
     z-index: 1;
 }
 
@@ -159,9 +159,9 @@ body{
     position: absolute;
     background: brown;
     height: 75px;
-    width: 200px;
+    width: 250px;
     bottom: 10px;
-    left: 15px;
+    left: 385px;
     z-index: 1;
 }
 
@@ -170,9 +170,9 @@ body{
     position: absolute;
     background: brown;
     height: 50px;
-    width: 250px;
+    width: 350px;
     bottom: 0px;
-    left: 5px;
+    left: 340px;
 }
 
 .steps:hover::after{

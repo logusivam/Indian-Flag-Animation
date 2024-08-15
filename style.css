@@ -146,10 +146,10 @@ body{
 .steps
 {
     position: absolute;
-    background: rgb(250, 229, 229);
-    height: 75px;
+    background: brown;
+    height: 65px;
     width: 150px;
-    bottom: 80px;
+    bottom: 85px;
     left: 35px;
     z-index: 1;
 }
@@ -160,7 +160,7 @@ body{
     background: brown;
     height: 75px;
     width: 200px;
-    bottom: 20px;
+    bottom: 10px;
     left: 15px;
     z-index: 1;
 }
@@ -180,6 +180,5 @@ body{
     content: "Logusivam Academy";
     text-align: center;
     color: #e5e6ed;
-    transform: rotateY(270deg) translateZ(150px);
 
 }

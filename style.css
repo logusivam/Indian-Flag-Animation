@@ -93,6 +93,12 @@ body{
     background: white;
     display: flex;
     justify-content: center;
-    /* border-radius: 0% 0% 0% 0%; */
-    animation
+    /* border-radius: 0% 0% 0% 0%; 
+    animation: white 8s ease forwards;*/
+    animation: width-move 4s ease;
+}
+
+.flag .ashok-chakra
+{
+    height: 100px;
 }

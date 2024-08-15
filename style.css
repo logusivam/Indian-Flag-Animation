@@ -26,5 +26,30 @@ body{
     flex-direction: column;
     padding-top: 20px;
     height: 300px;
-    clip-path: polygon(32% 6%, 70% 0%, 100% 8%, 100% 99%, 70% 93%, 27% 100%, 0 95);
+    clip-path: polygon(32% 6%, 70% 0%, 100% 8%, 100% 99%, 70% 93%, 27% 100%, 0 95%, 0 0);
+    animation: wave 1.5s ease-in-out infinite alternate;
+    transition: 1s;
+}
+
+@keyframes wave
+{
+    0%
+    {
+        clip-path: polygon(32% 6%, 70% 0%, 100% 8%, 100% 99%, 70% 93%, 27% 100%, 0 95%, 0 0);
+    }
+
+    25%
+    {
+        clip-path: polygon(32% 4%, 70% 2%, 100% 5%, 100% 96%, 70% 95%, 27% 98%, 0 95%, 0 0);
+    }
+
+    50%
+    {
+        clip-path: polygon(32% 2%, 70% 4%, 100% 3%, 100% 94%, 70% 97%, 27% 96%, 0 95%, 0 0);
+    }
+
+    75%
+    {
+        clip-path: polygon(32% 1%, 70% 5%, 100% 2%, 100% 91%, 70% 98%, 27% 95%, 0 95%, 0 0);
+    }
 }

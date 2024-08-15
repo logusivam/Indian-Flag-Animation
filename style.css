@@ -102,4 +102,28 @@ body{
 {
     height: 100px;
     animation: ashoka 4s linear infinite;
+    /* animation-delay: 2s; */
+}
+
+/* green color */
+.green
+{
+    background: green;
+    /* border-radius: 0% 0% 50% 0%;
+    animation: green 8s ease forwards; */
+    animation: width-move 4s ease;
+}
+
+/* chakr ANIMATION */
+@keyframes ashoka
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+
+    100%
+    {
+        transform: rotate(360deg);
+    }
 }

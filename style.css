@@ -127,3 +127,16 @@ body{
         transform: rotate(360deg);
     }
 }
+
+@keyframes flag
+{
+    0%
+    {
+        transform: translate(0px, 0px);
+    }
+
+    100%
+    {
+        transform: translate(400px, 0px);
+    }
+}

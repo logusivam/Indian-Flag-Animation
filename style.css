@@ -9,6 +9,7 @@ body{
     margin: 30px 500px;
 }
 
+/* stick for thw flag */
 .stick
 {
     height: 600px;
@@ -20,6 +21,7 @@ body{
     z-index: 1;
 }
 
+/* flag design */
 .flag-container
 {
     display: flex;
@@ -67,6 +69,7 @@ body{
     background: black;
 }
 
+/* orange color */
 .orange
 {
     background: orange;
@@ -129,6 +132,7 @@ body{
     }
 }
 
+/* flag animation */
 @keyframes flag
 {
     0%
@@ -175,6 +179,7 @@ body{
     left: 340px;
 }
 
+/* steps hover effect */
 .steps:hover::after{
     cursor: pointer;
     content: "Logusivam Academy";

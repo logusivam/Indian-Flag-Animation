@@ -58,3 +58,10 @@ body{
         clip-path: polygon(31% 0, 70% 6%, 100% 0, 100% 89%, 70% 100%, 27% 93%, 0 95%, 0 0);
     }
 }
+
+.flag
+{
+    height: 100px;
+    width: 450px;
+    background: black;
+}

@@ -29,6 +29,7 @@ body{
     clip-path: polygon(32% 6%, 70% 0%, 100% 8%, 100% 99%, 70% 93%, 27% 100%, 0 95%, 0 0);
     animation: wave 1.5s ease-in-out infinite alternate;
     transition: 1s;
+    position: fixed;
 }
 
 @keyframes wave

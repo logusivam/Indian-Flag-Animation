@@ -101,4 +101,5 @@ body{
 .flag .ashok-chakra
 {
     height: 100px;
+    animation: ashoka 4s linear infinite;
 }

@@ -187,8 +187,9 @@ body{
 
 .steps::after
 {
-    content: '';
+    content: "Logusivam Academy";
     position: absolute;
+    text-align: center;
     top: 0;
     left: 0;
     width: 300px;

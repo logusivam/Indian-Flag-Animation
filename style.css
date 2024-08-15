@@ -65,3 +65,9 @@ body{
     width: 450px;
     background: black;
 }
+
+.orange
+{
+    background: orange;
+    /* animation: wave 1s ease-in-out */
+}

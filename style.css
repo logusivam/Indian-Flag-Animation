@@ -1,5 +1,5 @@
 body{
-    background: #E6BF83;
+    background: hsl(36, 66%, 71%);
     height: 100vh;
     margin: 0px;
 }
@@ -72,4 +72,27 @@ body{
     /* animation: wave 1s ease-in-out infinite alternate; */
     /* width: 450px; */
     animation: width-move 4s ease;
+}
+
+@keyframes width-move
+{
+    from
+    {
+        width: 0px;
+    }
+
+    to
+    {
+        width: 450px;
+    }
+}
+
+/* white color */
+.white
+{
+    background: white;
+    display: flex;
+    justify-content: center;
+    /* border-radius: 0% 0% 0% 0%; */
+    animation
 }

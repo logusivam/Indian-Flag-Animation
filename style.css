@@ -140,3 +140,24 @@ body{
         transform: translate(400px, 0px);
     }
 }
+
+/* steps */
+.steps
+{
+    position: absolute;
+    background: brown;
+    height: 75px;
+    width: 150px;
+    bottom: 80px;
+    left: 35px;
+    z-index: 1;
+}
+
+.steps1
+{
+    position: absolute;
+    background: brown;
+    height: 75px;
+    width: 200px;
+    bottom: 20px;
+}
